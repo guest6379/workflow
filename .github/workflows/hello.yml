@@ -21,5 +21,7 @@ jobs:
               run: for((i=0;i<5;i++)); do echo "happy ${i}"; done
             - name: Pull docker image
               run: docker pull python:latest
+            - name: 测试 action 2
+              run: ls
  
             
