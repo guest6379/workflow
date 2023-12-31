@@ -19,5 +19,7 @@ jobs:
               run: echo "hello action 2"
             - name: Happy Action 2
               run: for((i=0;i<5;i++)); do echo "happy ${i}"; done
+            - name: Pull docker image
+              run: docker pull python:latest
  
             
