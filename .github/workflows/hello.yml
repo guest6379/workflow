@@ -17,5 +17,7 @@ jobs:
         steps:
             - name: Hello Action 2
               run: echo "hello action 2"
+            - name: Happy Action 2
+              run: for((i=0;i<5;i++)); do echo "happy ${i}"; done
  
             
